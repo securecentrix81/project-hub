@@ -17,6 +17,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+		<script>
+    if (!localStorage.getItem("userIsValidated")) {
+      window.location.replace("/")
+    }
+  </script>
         <!--Display-->
         <title>Project-Hub | Home</title>
         <link rel="icon" href="https://i.ibb.co/KW8NVz7/default.png">
